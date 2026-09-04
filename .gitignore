@@ -231,3 +231,6 @@ static/captures/
 *.jpg
 *.jpeg
 *.png
+
+# Editor settings
+.vscode/

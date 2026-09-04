@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}Upload{% endblock %}
+
+{% block main %}
+    <h1 class="mb-4">Upload a Video</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data" class="d-flex gap-2">
+        <input type="file" name="user_file" class="form-control" required>
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+{% endblock %}
