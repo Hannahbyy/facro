@@ -54,7 +54,6 @@ def process_video(video_path):
     conn.commit()
     conn.close()
     cap.release()
-    cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     # allows this script to be run standalone for testing
