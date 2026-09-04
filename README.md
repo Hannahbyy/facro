@@ -1,4 +1,4 @@
-# FaceLogger
+# Facro
 
 #### Video Demo: <URL HERE>
 
